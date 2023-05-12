@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Atividades</title>
+    <link rel="stylesheet" href="./professor.css">
+</head>
+<body>
+    <h1>Minhas Matérias</h1>
+    <form onsubmit="adi()">
+        <label for="materia">Matéria:</label>
+        <select id="materia">
+            <option>Artes</option>
+            <option>Historia</option>
+            <option>Português</option>
+            <option>Matematica</option>
+            <option>Biologia</option>
+            <option>Sociologia</option>
+            <option>Filosofia</option>
+            <option>Educação Fisica</option>
+            <option>Inglês</option>
+            <option>Fisica</option>
+            <option>Geografia</option>
+            <option>Quimica</option>
+        </select><br>
+        <label for="prazo">Data de entrega:</label>
+        <input class="cprazo" type="date" id="prazo"><br>
+        <label for="conteudo">Conteúdo:</label>
+        <textarea class="umconteudo" id="conteudo"></textarea><br>
+        <label for="arquivo">Arquivo:</label>
+        <input class="arqbotao" type="file" id="arquivo" name="arquivo"><br><br>
+        <button type="submit">Adicionar</button>
+    </form>
+    <hr>
+    <h2>Visualização:</h2>
+    <div id="visualizacao">
+        <ul id="atividades-lista"></ul>
+        <p>Aqui está sua atividade</p>
+    </div>
+    <div id="posts-container"></div>
+    <script type="text/javascript" src="./main.js"></script>
+</body>
+</html>
