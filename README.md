@@ -1,4 +1,4 @@
-# RAMMAG
+#   BOOKNECT - RAMMAG
 Trata-se de uma plataforma digital dedicada aos integrantes da Laguna School para que possam realizar diversas atividades de forma rápida, criativa e eficaz!
 
 #  Relator: Diretora
@@ -11,3 +11,5 @@ menor com os detalhes desta atividade. O aluno tem duas opções: participar da 
 disso, nada mais do que isso.”
 
 
+#LINK DOCUMENTAÇÃO (GOOGLE DRIVE)
+https://drive.google.com/drive/folders/1UaDRc9HkKS85TlURIXHKmn5qCBtZU0-3?hl=pt-BR
