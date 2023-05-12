@@ -10,7 +10,6 @@ caixinha contendo o nome da atividade, a data e o horário. Quando o usuário cl
 menor com os detalhes desta atividade. O aluno tem duas opções: participar da atividade ou não participar. Só preciso
 disso, nada mais do que isso.”
 
-#  REQUISITOS
 
 # LINK: DOCUMENTAÇÃO (DRIVE)
 https://drive.google.com/drive/folders/1UaDRc9HkKS85TlURIXHKmn5qCBtZU0-3?hl=pt-BR
