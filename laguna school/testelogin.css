@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:rgb(78, 210, 220); /* aqui coloco a cor de fundo do site */
+}
+
+.container{
+    position: relative;
+    max-width: 800px; /* tamanho  vertical da caixa branca */
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff; /*cor da caixa */
+    border-radius: 90px; /* curvatura da caixa branca, quanto mais alto mais arredondada ela fica */
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.container .form{
+    padding: 90px; /* tamanho horizontal da caixa */
+}
+
+.container .form .title{
+    position: relative;
+    font-size: 60px; /* tamanho da palavra LOGIN */
+    font-weight: 600;
+}
+
+.forms .tittle::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 3px;
+    width: 30px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 25px;
+}
+
+.form .input-campo{
+    position: relative;
+    margin-top: 40px;
+    width: 100%;
+    margin-top: 30px; /* distancia entre colocar email, senha e LOGIN,entre as tres linhas */ 
+}
+
+.input-campo input{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    padding: 15px 35px;
+    border: none;
+    outline: none;
+    font-size: 16px; /* tamanho da palavra "digite seu email" e "digite sua senha"*/
+    border-bottom: 2px solid rgb(78, 210, 220); /* cor da barra, onde você digita email e senha */
+    border-top: 2px solid transparent;
+}
+
+.input-field input:is(:focus, :valid){
+    border-bottom-color: #40f4d6;
+}
+
+.input-field i{
+    position: relative;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    color: #999;
+    font-size: 23px;
+    transition: all 0.2s ease;
+}
+
+.input-field input:is(:focus, :valid) ~ i{
+    color:rgb(78, 210, 220);
+}
+
+.input-field i.icon{
+    left: 0;
+}
+
+.input-field i.showHidePw{
+    right: 0;
+}   
+
+.form .checkbox-text{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.checkbox-text .checkbox-content{
+    display: flex;
+    align-items: center;
+    
+}
+
+button{
+    color: #fff;
+    background-color: rgb(78, 210, 220); /* cor do botão */
+    border-radius: 10px; /* formato do botão, borda pode ser mais redonda ou mais quadrada */
+    padding: 3px; /* tamanho do botao, vertical e horizontal */
+}
+
+#usuario{
+    justify-content: center;
+    text-align: center;
+}
+
+#password{
+    text-align: center;
+}
+
+#logCheck{
+    text-align: center;
+    justify-content: center;
+}
+
+.text{
+    text-align: center;
+    justify-content: center;
+  
+}
+
+img{
+    display: flex;
+    width:350px;
+    position: relative;
+    border-radius: 12px;;
+    
+    right: 180px;
+}
